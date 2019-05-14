@@ -35,7 +35,7 @@
     <div class="jumbotron">
         <h1 class="text-center">Idea Hackers Registration Form</h1>
         <p class="text-center">Please fill out this application to the best of your ability. Once submitted, you application will be reviewed by our awesome team.</p>
-        <form class="pt-3">
+        <form class="pt-3" action="app/submit" method="post">
             <div class="form-group">
                 <label for="nameFirst">First Name</label>
                 <input type="text" class="form-control" id="nameFirst" placeholder="Mark" required>
@@ -87,7 +87,7 @@
             </div>
             <div class="form-check pb-3">
                 <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox" value="">
+                    <input class="form-check-input" type="checkbox" value="" required>
                     I agree that I am at least 18 years of age.
                 </label>
             </div>
